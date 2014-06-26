@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>svgo</artifactId>
-    <version>0.3.7</version>
+    <version>0.3.8-SNAPSHOT</version>
     <name>svgo</name>
     <description>WebJar for svgo</description>
     <url>http://webjars.org</url>
@@ -28,7 +28,7 @@
         <url>https://github.com/webjars/svgo</url>
         <connection>scm:git:https://github.com/webjars/svgo.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/svgo.git</developerConnection>
-        <tag>svgo-0.3.7</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>

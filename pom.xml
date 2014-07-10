@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>svgo</artifactId>
-    <version>0.3.8-SNAPSHOT</version>
+    <version>0.3.7-1-SNAPSHOT</version>
     <name>svgo</name>
     <description>WebJar for svgo</description>
     <url>http://webjars.org</url>
@@ -46,6 +46,24 @@
         <extractDir>${project.build.directory}/svgo-${upstreamVersion}</extractDir>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstreamVersion}</destDir>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>sax</artifactId>
+            <version>0.5.8</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>js-yaml</artifactId>
+            <version>3.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>whet.extend</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
